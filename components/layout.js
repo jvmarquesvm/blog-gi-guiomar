@@ -4,8 +4,8 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'Quisquam est Ipsum'
-export const siteTitle = 'Duis pretium'
+const name = 'Reflexões da Palavra de Deus'
+export const siteTitle = 'Join'
 
 export default function Layout({ children, home }) {
   return (
@@ -14,7 +14,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Duis pretium using Next.js"
+          content=" Join - Jovens Interagindo"
         />
         <meta
           property="og:image"
@@ -30,7 +30,7 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="/images/profile.jpg"
+              src="/images/logo-join.png"
               className={utilStyles.borderCircle}
               height={144}
               width={144}
@@ -44,7 +44,7 @@ export default function Layout({ children, home }) {
               <a>
                 <Image
                   priority
-                  src="/images/profile.jpg"
+                  src="/images/logo-join.png"
                   className={utilStyles.borderCircle}
                   height={108}
                   width={108}
